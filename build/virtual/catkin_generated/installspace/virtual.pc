@@ -1,0 +1,8 @@
+prefix=/home/sibohao/Desktop/catkin_ws/install
+
+Name: virtual
+Description: Description of virtual
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

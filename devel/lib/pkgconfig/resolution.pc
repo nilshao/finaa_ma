@@ -1,0 +1,8 @@
+prefix=/home/sibohao/Desktop/catkin_ws/devel
+
+Name: resolution
+Description: Description of resolution
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

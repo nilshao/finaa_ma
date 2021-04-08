@@ -1,0 +1,8 @@
+prefix=/home/sibohao/Desktop/catkin_ws/install
+
+Name: easy_handeye_demo
+Description: Description of easy_handeye_demo
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

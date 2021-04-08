@@ -1,0 +1,8 @@
+prefix=/home/sibohao/Desktop/catkin_ws/devel
+
+Name: virtual
+Description: Description of virtual
+Version: 0.0.0
+Cflags: -I/home/sibohao/Desktop/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

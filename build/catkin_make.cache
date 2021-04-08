@@ -1,0 +1,2 @@
+easy_handeye/easy_handeye:easy_handeye/easy_handeye_msgs:easy_handeye/rqt_easy_handeye:easy_handeye_demo:handeye_calib_camodocal:iiwa_stack/iiwa_control:iiwa_stack/iiwa_description:iiwa_stack/iiwa_gazebo:iiwa_stack/iiwa_hw:iiwa_stack/iiwa_moveit:iiwa_stack/iiwa_msgs:iiwa_stack/iiwa_ros:resolution:virtual
+-DCATKIN_DEVEL_PREFIX=/home/sibohao/Desktop/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sibohao/Desktop/catkin_ws/install -G Unix Makefiles
