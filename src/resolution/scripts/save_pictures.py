@@ -7,8 +7,16 @@ from cv_bridge import CvBridge, CvBridgeError
 import threading
 import logging
 import time
+import os 
+directory = 'src/resolution/scripts/camera_calibration_pictures/'
 filename1 = 'Image'
 filename2 = '.jpg'
+
+if not os.path.exists(directory):
+    os.makedirs(directory)
+os.chdir(directory)
+
+
 count = 0
 hdr = None
 class Node():
@@ -21,7 +29,9 @@ class Node():
     def image_callback(self,img_msg):
         cv_image = self.bridge.imgmsg_to_cv2(img_msg, "bgr8")
         cv2.namedWindow("Original Image Window", cv2.WINDOW_NORMAL)
+
         
+
         lock = threading.Lock()
         with lock:
             r = raw_input()
